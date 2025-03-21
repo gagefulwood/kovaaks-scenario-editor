@@ -1,0 +1,840 @@
+{
+  "Main": {
+    "fields": [
+      {
+        "in_game_name": "Profile Name",
+        "in_file_name": "Name",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Health",
+        "in_file_name": "MaxHealth",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Min Respawn Delay",
+        "in_file_name": "MinRespawnDelay",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Max Respawn Delay",
+        "in_file_name": "MaxRespawnDelay",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Respawn Animation Duration",
+        "in_file_name": "RespawnAnimationDuration",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Headshot Only",
+        "in_file_name": "HeadshotOnly",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Camera Height Offset",
+        "in_file_name": "CameraOffset",
+        "data_type": "vector",
+        "value": {
+          "X": null,
+          "Y": null,
+          "Z": null
+        },
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Hide Third Person Camera",
+        "in_file_name": "null",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Third Person Camera",
+        "in_file_name": "ThirdPersonCamera",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "TPS Arm Length",
+        "in_file_name": "TPSArmLength",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "TPS Offset Min",
+        "in_file_name": "null",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "TPS Offset Max",
+        "in_file_name": "null",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      }
+    ]
+  },
+  "Move": {
+    "fields": [
+      {
+        "in_game_name": "Flies",
+        "in_file_name": "isFlyer",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Flight Obeys Pitch",
+        "in_file_name": "FlightObeysPitch",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Flight Velocity Up",
+        "in_file_name": "FlightVelocityUp",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Flight Accel Up",
+        "in_file_name": "FlightAccelUp",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Flight Velocity Down",
+        "in_file_name": "FlightVelocityDown",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Flight Accel Down",
+        "in_file_name": "FlightAccelDown",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Use Flight Vertical Friction",
+        "in_file_name": "UseAerialVerticalFriction",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Flight Vertical Turning Friction",
+        "in_file_name": "AerialVerticalTurningFriction",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Flight Breaking Friction",
+        "in_file_name": "AerialVerticalBreakingFriction",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Has Jetpack",
+        "in_file_name": "HasJetpack",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Run Speed",
+        "in_file_name": "MaxSpeed",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Forward Speed Bias",
+        "in_file_name": "ForwardSpeedBias",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Strafe Speed Multiplier",
+        "in_file_name": "StrafeSpeedMult",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Back Speed Multiplier",
+        "in_file_name": "BackSpeedMult",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Walking Acceleration",
+        "in_file_name": "Acceleration",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Crouching Acceleration",
+        "in_file_name": "CrouchingAcceleration",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Scaling Friction",
+        "in_file_name": "Friction",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Let Off Friction",
+        "in_file_name": "Braking Friction",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Flat Friction",
+        "in_file_name": "BrakingDeceleration",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Step Up Height",
+        "in_file_name": "StepUpHeight",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Fly On Jump And Crouch",
+        "in_file_name": "isFlyOnJumpAndCrouch",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Jump Velocity Min",
+        "in_file_name": "JumpVelocityMin",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Jump Velocity Max",
+        "in_file_name": "JumpVelocityMax",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Aerial Friction",
+        "in_file_name": "AerialFriction",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Gravity Scale",
+        "in_file_name": "Gravity",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Terminal Velocity",
+        "in_file_name": "TerminalVelocity",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Drag Coefficient",
+        "in_file_name": "DragCoefficient",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Air Control Factor",
+        "in_file_name": "AirControl",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Allow Buffered Jumps",
+        "in_file_name": "AllowBufferedJumps",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Can Pogo Jump",
+        "in_file_name": "CanPogoJump",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Can Jump From Crouch",
+        "in_file_name": "CanJumpFromCrouch",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Aerial Jump From Crouch",
+        "in_file_name": "AirJumpCount",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Can Crouch",
+        "in_file_name": "CanCrouch",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Crouch Speed",
+        "in_file_name": "MaxCrouchSpeed",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Crouch Height Multiplier",
+        "in_file_name": "CrouchHeightModifier",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Crouch Animation Rate",
+        "in_file_name": "CrouchAnimationSpeed",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Can Crouch in Air",
+        "in_file_name": "CanCrouchInAir",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Bounce Off Walls",
+        "in_file_name": "BounceOffWalls",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Landing Speed Penality Time",
+        "in_file_name": "JumpSpeedPenaltyDuration",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Landing Speed Penalty",
+        "in_file_name": "Jump SpeedPenaltyPercent",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Enable Quake/Source Movement",
+        "in_file_name": "EnableQuakeMovement",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Jump Skips Friction",
+        "in_file_name": "JumpSkipsFriction",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Continuous Ground Friction",
+        "in_file_name": "ContinuousGroundFriction",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Continuous Air Friction",
+        "in_file_name": "ContinuousAirFriction",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Scaled Ground Acceleration",
+        "in_file_name": "ScaledGroundAcceleration",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Scaled Air Acceleration",
+        "in_file_name": "ScaledAirAcceleration",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Max Air Speed",
+        "in_file_name": "MaxAirSpeed",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Stop Speed Threshold",
+        "in_file_name": "StopSpeedThreshold",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Stop Speed",
+        "in_file_name": "StopSpeed",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Clamp Velocity To Input Speed",
+        "in_file_name": "ClampVelocityToInputSpeed",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Enable Quake Ramp Jump",
+        "in_file_name": "EnableQuakeJump",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "KtJump",
+        "in_file_name": "KtJump",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Fixed Movement Tick",
+        "in_file_name": "MovementPhysicsTickEnabled",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Tick Interval",
+        "in_file_name": "MovementPhysicsTickInterval",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      }
+    ]
+  },
+  "Boxes": {
+    "fields": [
+      {
+        "in_game_name": "Character Model",
+        "in_file_name": "CharacterModel",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Character Skin",
+        "in_file_name": "CharacterSkin",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Per Mesh Hit Detection",
+        "in_file_name": "MeshHitDetection",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Bounding Box Type",
+        "in_file_name": "MainBBType",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Hide Bounding Box",
+        "in_file_name": "MainBBHide",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Has Head",
+        "in_file_name": "MainBBHasHead",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Body Height",
+        "in_file_name": "MainBBHeight",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Body Radius",
+        "in_file_name": "MainBBRadius",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Head Offset",
+        "in_file_name": "MainBBHeadOffset",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Head Radius",
+        "in_file_name": "MainBBHeadRadius",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Projectile Bounding Box Type",
+        "in_file_name": "ProjBBType",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Hide Bounding Box",
+        "in_file_name": "ProjBBHide",
+        "data_type": "null",
+        "value": "null",
+        "parent": "Projectile Bounding Box Type"
+      },
+      {
+        "in_game_name": "Has Head",
+        "in_file_name": "ProjBBHasHead",
+        "data_type": "null",
+        "value": "null",
+        "parent": "Projectile Bounding Box Type"
+      },
+      {
+        "in_game_name": "Body Height",
+        "in_file_name": "ProjBBHeight",
+        "data_type": "null",
+        "value": "null",
+        "parent": "Projectile Bounding Box Type"
+      },
+      {
+        "in_game_name": "Body Radius",
+        "in_file_name": "ProjBBRadius",
+        "data_type": "null",
+        "value": "null",
+        "parent": "Projectile Bounding Box Type"
+      },
+      {
+        "in_game_name": "Head Offset",
+        "in_file_name": "ProjBBOffset",
+        "data_type": "null",
+        "value": "null",
+        "parent": "Projectile Bounding Box Type"
+      },
+      {
+        "in_game_name": "Head Radius",
+        "in_file_name": "ProjBBHeadRadius",
+        "data_type": "null",
+        "value": "null",
+        "parent": "Projectile Bounding Box Type"
+      }
+    ]
+  },
+  "Abilities": {
+    "fields": [
+      {
+        "in_game_name": "Global Cooldown",
+        "in_file_name": "AbilityGlobalCooldown",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Block Ability for Duration on Challenge Start",
+        "in_file_name": "BlockAbilityOnStartDuration",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      }
+    ]
+  },
+  "Spawn": {
+    "fields": [
+      {
+        "in_game_name": "Spawn Offset Minimum",
+        "in_file_name": "null",
+        "data_type": "vector",
+        "value": {
+          "X": null,
+          "Y": null,
+          "Z": null
+        },
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Spawn Offset Maximum",
+        "in_file_name": "null",
+        "data_type": "vector",
+        "value": {
+          "X": null,
+          "Y": null,
+          "Z": null
+        },
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Blocked Self Spawn Radius",
+        "in_file_name": "BlockedSpawnRadius",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Block Other Spawn FOV",
+        "in_file_name": "BlockSpawnFOV",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Invert Block Other Spawn FOV Logic",
+        "in_file_name": "InvertBlockSpawn",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Block Other Spawn Distance",
+        "in_file_name": "BlockSpawnDistance",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      }
+    ]
+  },
+  "Effects": {
+    "fields": [
+      {
+        "in_game_name": "Damage Knockback Factor",
+        "in_file_name": "DamageKnockbackFactor",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Respawn Invincibility Timer",
+        "in_file_name": "RespawnInvulnTime",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Block Self Damage",
+        "in_file_name": "BlockSelfDamage",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Block Team Damage",
+        "in_file_name": "BlockTeamDamage",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Invincible Player",
+        "in_file_name": "InvinciblePlayers",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Invincible Bots",
+        "in_file_name": "InvincibleBots",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Disable Character Collision",
+        "in_file_name": "DisableCharacterCollision",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Health Regained On Kill",
+        "in_file_name": "HealthRegainedonkill",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Health Regen Per Sec",
+        "in_file_name": "HealthRegenPerSec",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Health Regen Delay",
+        "in_file_name": "HealthRegenDelay",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Ammo Awarded On Death",
+        "in_file_name": "AmmoRegainedOnKill",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Landing View Bob Time",
+        "in_file_name": "ViewBobTime",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Landing Angle Adjustment",
+        "in_file_name": "ViewBobAngleAdjustment",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Landing Camera Z Offset",
+        "in_file_name": "ViewBobCameraZOffset",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Landing Affects Shots",
+        "in_file_name": "ViewBobAffectsShots",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Lifesteal",
+        "in_file_name": "LifeStealPercent",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      }
+    ]
+  },
+  "Jetpack": {
+    "fields": [
+      {
+        "in_game_name": "Jump Activation Delay",
+        "in_file_name": "JetpackActivationDelay",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Full Fuel Tank Time",
+        "in_file_name": "JetpackFullFuelTime",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Fuel Regen Rate",
+        "in_file_name": "JetpackFuelIncPerSec",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Fuel Regens In Air",
+        "in_file_name": "JetpackFuelRegensInAir",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Thrust",
+        "in_file_name": "JetpackThrust",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Max Z Velocity",
+        "in_file_name": "JetpackMaxZVelocity",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      },
+      {
+        "in_game_name": "Air Control With Thrust",
+        "in_file_name": "JetpackAirControlWithThrust",
+        "data_type": "null",
+        "value": "null",
+        "parent": "null"
+      }
+    ]
+  }
+}

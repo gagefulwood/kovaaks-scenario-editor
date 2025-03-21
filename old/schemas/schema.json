@@ -1,0 +1,33 @@
+{
+    "$schema":"http://json-schema.org/draft-07/schema#",
+    "title": "Component",
+    "type": "object",
+    "properties": {
+        "tabs": {
+            "type": "object",
+            "patternProperties": {
+                "^[A-Za-z0-9_]+$": {
+                    "type": "object",
+                    "properties": {
+                        "fields": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "in_game_name": {"type":"string"},
+                                    "in_file_name": {"type":"string"},
+                                    "data_type": {"type":"string"},
+                                    "value": {},
+                                    "parent": {"type":"string"}
+                                },
+                                "required": ["in_game_name","in_file_name","data_type"]
+                            }
+                        }
+                    },
+                    "requried": ["fields"]
+                }
+            }
+        }
+    },
+    "required": ["tabs"]
+}
